@@ -24,7 +24,7 @@ Provides various functions to perform search/replace on files.
 Preg/Ereg regex supported along with faster but more basic str_replace
 routine.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa zawiera ró¿ne funkcje do wyszukiwania i zamiany ci±gów w
