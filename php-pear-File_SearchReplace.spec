@@ -10,6 +10,7 @@ Version:	1.0.1
 Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
+# Source0-md5:	bbf1709f6d340ac602f39a0aaeb18492
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
