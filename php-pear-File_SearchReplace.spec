@@ -16,9 +16,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Provides various functions to perform search/replace
-on files. Preg/Ereg regex supported along with faster
-but more basic str_replace routine. 
+Provides various functions to perform search/replace on files.
+Preg/Ereg regex supported along with faster but more basic str_replace
+routine.
 
 %description -l pl
 
