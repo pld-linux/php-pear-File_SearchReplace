@@ -10,8 +10,8 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-BuildRequires:	rpm-php-pearprov
 URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,6 +21,9 @@ Preg/Ereg regex supported along with faster but more basic str_replace
 routine.
 
 %description -l pl
+Ta klasa zawiera ró¿ne funkcje do wyszukiwania i zamiany ci±gów w
+plikach. Wyra¿enia preg/ereg s± obs³ugiwane poprzez szybk±, ale
+bardziej podstawow± funkcjê str_replace.
 
 %prep
 %setup -q -c
