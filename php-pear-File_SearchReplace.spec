@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          File
 %define         _subclass       SearchReplace
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Performs search and replace routines
 Summary(pl):	%{_pearname} - Metody przeszukiwania i zamieniania
@@ -21,10 +22,14 @@ Provides various functions to perform search/replace on files.
 Preg/Ereg regex supported along with faster but more basic str_replace
 routine.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Ta klasa zawiera ró¿ne funkcje do wyszukiwania i zamiany ci±gów w
 plikach. Wyra¿enia preg/ereg s± obs³ugiwane poprzez szybk±, ale
 bardziej podstawow± funkcjê str_replace.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
