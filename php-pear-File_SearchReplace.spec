@@ -2,8 +2,8 @@
 %define         _class          File
 %define         _subclass       SearchReplace
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Performs search and replace routines
-Summary(pl):	%{_class}_%{_subclass} - Metody przeszukiwania i zamieniania
+Summary:	%{_pearname} - Performs search and replace routines
+Summary(pl):	%{_pearname} - Metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	1
