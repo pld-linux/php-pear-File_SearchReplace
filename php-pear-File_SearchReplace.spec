@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       SearchReplace
+%define		_class		File
+%define		_subclass	SearchReplace
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Performs search and replace routines
-Summary(pl):	%{_pearname} - Metody przeszukiwania i zamieniania
+
+Summary:	%{_pearname} - performs search and replace routines
+Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	2
