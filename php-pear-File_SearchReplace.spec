@@ -5,9 +5,9 @@
 Summary:	%{_class}_%{_subclass} - Performs search and replace routines
 Summary(pl):	%{_class}_%{_subclass} - Metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
-Version:	1.0
-Release:	3
-License:	PHP 2.02
+Version:	1.0.1
+Release:	1
+License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
