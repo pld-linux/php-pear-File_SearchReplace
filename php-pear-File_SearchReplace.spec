@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - performs search and replace routines
 Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	4
+Version:	1.1.0
+Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
-# Source0-md5:	bbf1709f6d340ac602f39a0aaeb18492
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	609d56e86c8875e17bf19ea1595dc001
 URL:		http://pear.php.net/package/File_SearchReplace/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
@@ -33,6 +33,19 @@ bardziej podstawow± funkcjê str_replace.
 
 Ta klasa ma w PEAR status: %{_status}.
 
+%package tests
+Summary:	Tests for PEAR::%{_pearname}
+Summary(pl):	Testy dla PEAR::%{_pearname}
+Group:		Development
+Requires:	%{name} = %{epoch}:%{version}-%{release}
+AutoReq:	no
+
+%description tests
+Tests for PEAR::%{_pearname}.
+
+%description tests -l pl
+Testy dla PEAR::%{_pearname}.
+
 %prep
 %pear_package_setup
 
@@ -49,3 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/%{_class}/*.php
+
+%files tests
+%defattr(644,root,root,755)
+%{php_pear_dir}/tests/*
