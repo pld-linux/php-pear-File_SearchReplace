@@ -8,7 +8,7 @@ Summary:	%{_pearname} - performs search and replace routines
 Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1
+Release:	2
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
