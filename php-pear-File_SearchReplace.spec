@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
 Release:	1
+Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
