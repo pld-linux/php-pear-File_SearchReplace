@@ -7,13 +7,13 @@
 Summary:	%{_pearname} - performs search and replace routines
 Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
-Version:	1.1.0
-Release:	2
+Version:	1.1.1
+Release:	1
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	609d56e86c8875e17bf19ea1595dc001
+# Source0-md5:	527285477680226e4e010fe1d9981422
 URL:		http://pear.php.net/package/File_SearchReplace/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
