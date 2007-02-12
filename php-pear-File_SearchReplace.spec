@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - performs search and replace routines
-Summary(pl):	%{_pearname} - metody przeszukiwania i zamieniania
+Summary(pl.UTF-8):   %{_pearname} - metody przeszukiwania i zamieniania
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	1
@@ -29,16 +29,16 @@ routine.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa zawiera ró¿ne funkcje do wyszukiwania i zamiany ci±gów w
-plikach. Wyra¿enia preg/ereg s± obs³ugiwane poprzez szybk±, ale
-bardziej podstawow± funkcjê str_replace.
+%description -l pl.UTF-8
+Ta klasa zawiera rÃ³Å¼ne funkcje do wyszukiwania i zamiany ciÄ…gÃ³w w
+plikach. WyraÅ¼enia preg/ereg sÄ… obsÅ‚ugiwane poprzez szybkÄ…, ale
+bardziej podstawowÄ… funkcjÄ™ str_replace.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -47,7 +47,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
